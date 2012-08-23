@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/hosokawa0825/THDoubleSlider.git', :commit => '8df546a35407bd00a2f4085a4b14f248305c6c1d' }
   s.ios.source_files = 'THDoubleSlider/classes'
   s.ios.frameworks   = 'Foundation', 'QuartzCore', 'CoreGraphics', 'UIKit'
-  dependency 'JRSwizzle', '~> 1.0'
+  s.dependency 'JRSwizzle', '~> 1.0'
 end
