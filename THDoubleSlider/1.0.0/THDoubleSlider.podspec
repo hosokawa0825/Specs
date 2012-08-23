@@ -1,4 +1,5 @@
 Pod::Spec.new do |s|
+  s.platform     = :ios, '5.1'
   s.name     = 'THDoubleSlider'
   s.version  = '1.0.0'
   s.summary  = 'THDoubleSlider is a slider which has two handles. '
@@ -10,6 +11,5 @@ Pod::Spec.new do |s|
   s.ios.source_files = 'THDoubleSlider/classes'
   s.ios.frameworks   = 'Foundation', 'QuartzCore', 'CoreGraphics', 'UIKit'
   s.dependency 'JRSwizzle', '~> 1.0'
-  s.platform     = :ios, '5.1'
   s.requires_arc = true
 end
