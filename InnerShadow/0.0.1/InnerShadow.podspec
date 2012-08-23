@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retreived.
   #
-  s.source       = { :git => "https://github.com/hosokawa0825/InnerShadow.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/hosokawa0825/InnerShadow.git", :commit => "098cf829e802adae48695ccfeacde50863a42e8f"}
 
   s.platform     = :ios
 
@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   # over the selected files.
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
+  s.source_files = 'InnerShadow/Classes'
 
   # A list of file patterns which select the header files that should be
   # made available to the application. If the pattern is a directory then the
