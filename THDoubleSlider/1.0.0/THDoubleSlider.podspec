@@ -9,4 +9,6 @@ Pod::Spec.new do |s|
   s.ios.source_files = 'THDoubleSlider/classes'
   s.ios.frameworks   = 'Foundation', 'QuartzCore', 'CoreGraphics', 'UIKit'
   s.dependency 'JRSwizzle', '~> 1.0'
+  s.platform     = :ios
+  s.requires_arc = true
 end
