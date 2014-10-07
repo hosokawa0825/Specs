@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.8'
   s.requires_arc = true
+  s.prefix_header_file = 'RigaCommons/RigaCommons-Prefix.pch'
   s.dependency 'AFNetworking', '1.3.4'
   s.dependency 'MagicalRecord', '2.1.0'
   s.dependency 'ReactiveCocoa', '1.9.7'
