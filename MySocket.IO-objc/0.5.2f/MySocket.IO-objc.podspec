@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'socket.IO'
+  s.name     = 'MySocket.IO-objc'
   s.version  = '0.5.2f'
   s.summary  = 'socket.io v0.7.2+ for iOS devices.'
   s.description  = "    Interface to communicate between Objective C and Socket.IO with the help of websockets. It's based on fpotter's socketio-cocoa and uses square's SocketRocket.\n"
