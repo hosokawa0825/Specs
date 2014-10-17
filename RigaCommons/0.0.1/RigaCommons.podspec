@@ -6,8 +6,9 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/YENGEE/RigaCommons'
   s.license  = 'MIT'
   s.authors  = { 'toru hosokawa' => 'globe_sessions@hotmail.com' }
-  s.source   = { :git => 'https://github.com/YENGEE/RigaCommons.git', :branch => 'master' }
+  s.source   = { :git => 'https://hosokawa0825:hosokawa0589@github.com/YENGEE/RigaCommons.git', :branch => 'master' }
   s.source_files = 'RigaCommons/Classes/**/*.{h,m}'
+  s.resources = ['RigaCommons/Classes/RigaCommons.xcdatamodel']
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.8'
   s.requires_arc = true
