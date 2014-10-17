@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.prefix_header_file = 'RigaCommons/RigaCommons-Prefix.pch'
   s.dependency 'AFNetworking', '1.3.4'
-  s.dependency 'MagicalRecord/Shorthand', '2.1.0'
+  s.dependency 'MyMagicalRecord', '2.3.0-beta.4'
   s.dependency 'ReactiveCocoa', '2.3.1'
   s.dependency 'ObjectiveSugar', '1.1.0'
   s.dependency 'MySocket.IO-objc', '0.5.2f'
